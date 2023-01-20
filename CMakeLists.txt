@@ -15,7 +15,10 @@ find_package(rmw REQUIRED)
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(rmw_implementation_cmake REQUIRED)
+find_package(interfaces REQUIRED)
 find_package(std_msgs REQUIRED)
+find_package(can_msgs REQUIRED)
+find_package(nmea_msgs REQUIRED)
 
 # find ROS 1 packages
 set(cmake_extras_files cmake/find_ros1_package.cmake cmake/find_ros1_interface_packages.cmake)
